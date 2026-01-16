@@ -20,8 +20,8 @@
       "name": "Laptop",
       "sku": "PROD-001",
       "category": "Electronics",
-      "status": "active",
-      "price": 999,
+      "status": "draft",
+      "price": 78,
       "inventory": 10,
       "description": "High-performance laptop 66666",
       "id": 1
@@ -37,14 +37,14 @@
       "description": "Wireless mouse"
     },
     {
-      "id": 3,
       "name": "Keyboard",
       "sku": "PROD-003",
       "category": "Electronics",
-      "price": 79.99,
+      "status": "archived",
+      "price": 79,
       "inventory": 30,
-      "status": "draft",
-      "description": "Mechanical keyboard"
+      "description": "Mechanical keyboard",
+      "id": 3
     }
   ]
 }
