@@ -1,0 +1,14 @@
+.product-detail-card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.product-detail-card h1 {
+    margin-bottom: 1rem;
+}
+
+.product-detail-card p {
+    margin-bottom: 0.5rem;
+}

@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "John Doe",
+      "email": "user@example.com",
+      "password": "password123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "password123",
+      "role": "user"
+    }
+  ],
+  "products": [
+    {
+      "name": "Laptop",
+      "sku": "PROD-001",
+      "category": "Electronics",
+      "status": "active",
+      "price": 999,
+      "inventory": 10,
+      "description": "High-performance laptop 66666",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Mouse",
+      "sku": "PROD-002",
+      "category": "Electronics",
+      "price": 29.99,
+      "inventory": 50,
+      "status": "active",
+      "description": "Wireless mouse"
+    },
+    {
+      "id": 3,
+      "name": "Keyboard",
+      "sku": "PROD-003",
+      "category": "Electronics",
+      "price": 79.99,
+      "inventory": 30,
+      "status": "draft",
+      "description": "Mechanical keyboard"
+    }
+  ]
+}

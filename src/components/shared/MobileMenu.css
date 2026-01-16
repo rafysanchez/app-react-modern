@@ -1,0 +1,57 @@
+.mobile-menu {
+    display: none;
+}
+
+/* Mobile responsive */
+@media (max-width: 1023px) {
+    .mobile-menu {
+        display: block;
+    }
+
+    .menu-toggle {
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+        padding: 0.5rem;
+        color: #111827;
+    }
+
+    .mobile-nav {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background-color: #f3f4f6;
+        border-bottom: 1px solid #e5e7eb;
+        z-index: 100;
+    }
+
+    .mobile-nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .mobile-nav li {
+        margin: 0;
+    }
+
+    .mobile-nav a {
+        display: block;
+        padding: 0.75rem 1rem;
+        text-decoration: none;
+        color: #111827;
+        border-bottom: 1px solid #e5e7eb;
+        transition: background-color 0.2s;
+    }
+
+    .mobile-nav a:hover {
+        background-color: #e5e7eb;
+    }
+
+    .mobile-nav a.active {
+        background-color: #3b82f6;
+        color: white;
+    }
+}
